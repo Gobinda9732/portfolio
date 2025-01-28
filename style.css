@@ -1,51 +1,60 @@
 *{
-    padding: 0;
     margin: 0;
-
+    padding: 0;  
 }
-
-#Home{
-    background-color: black;
-    height: 100vh;
-    width: 100%;
-   
+body {
+    background-color:black;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
-#navbar{
-    background-color: rgb(93, 89, 89);
-    border-radius: 2px;
-    margin-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+header {
+    background-color: #5b5a5a;
+    padding: 15px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    text-align: center;
 }
-}
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 20px;
-}
-ul li a{
-    color: white;
+#nav #nav_ul .nav_ul_li{
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+    margin: 0 15px;
     text-decoration: none;
-    font-weight: bold;
+    
 }
-li a:hover{
-    color: brown;
-    transition: .2s;
+ a {
+    color: white; 
 }
-
-#home_Maincontent{
-    color: white;
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
 }
-img{
-    height: 200px;
-    width: 200px;
+.content {
+    max-width: 500px;
+}
+.profile img {
     border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+button {
+    background-color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.clients {
+    text-align: center;
+    padding: 20px;
+}
+.logos img {
+    margin: 10px;
+    width: 100px;
 }
