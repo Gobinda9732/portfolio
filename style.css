@@ -1,60 +1,75 @@
-*{
-    margin: 0;
-    padding: 0;  
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-color:black;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
+  background-color: black;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
-header {
-    background-color: #5b5a5a;
-    padding: 15px;
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 5px;
-    text-align: center;
+#Portfolio {
+  width: 70%;
+  margin: auto;
+  background-color: #080808;
 }
-#nav #nav_ul .nav_ul_li{
-    list-style-type: none;
-    padding: 0;
-    display: inline;
-    margin: 0 15px;
-    text-decoration: none;
-    
+#whole-content {
+  width: 80%;
+  margin: auto;
 }
- a {
-    color: white; 
+nav {
+  background-color: #1b1b1b;
+
+  border-radius: 0 0 5px 5px;
+
+  padding: 20px 0;
 }
-.main {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px;
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
 }
-.content {
-    max-width: 500px;
+
+nav ul li a {
+  text-decoration: none;
+  color: #9c9c9c;
+}
+
+.main-hero {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-top: 50px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  justify-content: space-between;
+  /* background-color: #62ba1b; */
+  width: 100%;
 }
 .profile img {
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
 }
-button {
-    background-color: #4caf50;
-    border: none;
-    padding: 10px 20px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+.content {
+  width: 600px;
 }
-.clients {
-    text-align: center;
-    padding: 20px;
+
+.content h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
 }
-.logos img {
-    margin: 10px;
-    width: 100px;
+.content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.content button {
+  background-color: #62ba1b;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 20px;
 }
