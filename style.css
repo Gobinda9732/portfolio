@@ -9,11 +9,11 @@ body {
   padding: 0;
 }
 #Portfolio {
-  width: 70%;
+  width: 85%;
   margin: auto;
   background-color: #080808;
 }
-#whole-content {
+.whole-content {
   width: 80%;
   margin: auto;
 }
@@ -72,4 +72,102 @@ nav ul li a {
   border-radius: 5px;
   margin-top: 15px;
   font-size: 20px;
+  cursor: pointer;
+}
+#technology{
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  
+}
+#technology img{
+width: 25vmin;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#Second_page  {
+  width: 85%;
+  margin: auto;
+  background-color: #ffffff;
+  color: #080808;
+  padding-bottom: 50px;
+}
+#education {
+  margin-top: 70px;
+  padding-top: 30px;
+  text-align: center;
+}
+#mca{
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+#bca{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+
+}
+#hs{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+
+}
+#Third_page{
+  width: 85%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+#skills{
+  margin-top: 70px;
+  padding-top: 30px; 
+  text-align: center;
+}
+#box-content{
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+    
+}
+.box{
+  height: auto;
+  width: 45%;
+  float: 30%;
+  border: 1px solid gray;
+ 
+}
+.box-image{
+  display: flex;
+}
+.box-image img{
+  height: 20px;
+  width: 20px;
+}
+
+
+
+#Forth_page{
+  width: 85%;
+  margin: auto;
+  background-color: #ffffff;
+  color: #080808;
+}
+#Project{
+  text-align: center;
+}
+#Project-Containor{
+  display: flex;
+  justify-content: space-around;
+}
+#Fifth_page{
+  background-color: #080808;
+  width: 85%;
+  margin: auto;
 }
