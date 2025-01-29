@@ -16,6 +16,7 @@ body {
 .whole-content {
   width: 80%;
   margin: auto;
+  max-width: 897px;
 }
 nav {
   background-color: #1b1b1b;
@@ -74,22 +75,21 @@ nav ul li a {
   font-size: 20px;
   cursor: pointer;
 }
-#technology{
+#technology {
   display: flex;
   height: 80px;
   justify-content: space-around;
-  
 }
-#technology img{
-width: 25vmin;
-  margin-top: 20px;
+#technology img {
+  width: 25vmin;
+  margin: 20px 5px 0 5px;
   border-radius: 5px;
   cursor: pointer;
 }
-#Second_page  {
+#Second_page {
   width: 85%;
   margin: auto;
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   color: #080808;
   padding-bottom: 50px;
 }
@@ -98,34 +98,45 @@ width: 25vmin;
   padding-top: 30px;
   text-align: center;
 }
-#mca{
-  padding-top: 100px;
+.education-block {
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
-#bca{
-  padding-top: 50px;
-  display: flex;
-  justify-content: space-around;
-
+.education-block img {
+  object-fit: cover;
+  border-radius: 20px;
+  height: 300px;
+  width: 445px;
+  box-shadow: 1px 1px 5px #ada9a9;
 }
-#hs{
-  padding-top: 50px;
-  display: flex;
-  justify-content: space-around;
-
+.edu_details-right {
+  padding-right: 30px;
 }
-#Third_page{
+.edu_details-left {
+  padding-left: 30px;
+}
+.education-block h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.education-block p {
+  color: #9c9c9c;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#Third_page {
   width: 85%;
   margin: auto;
   padding-bottom: 20px;
 }
-#skills{
+#skills {
   margin-top: 70px;
-  padding-top: 30px; 
+  padding-top: 30px;
   text-align: center;
 }
-#box-content{
+#box-content {
   margin-top: 50px;
   height: auto;
   width: 100%;
@@ -134,40 +145,49 @@ width: 25vmin;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 20px;
-    
 }
-.box{
+.box {
   height: auto;
   width: 45%;
   float: 30%;
   border: 1px solid gray;
- 
+  margin: 10px 0;
 }
-.box-image{
+.box-image {
   display: flex;
 }
-.box-image img{
+.box-image img {
   height: 20px;
   width: 20px;
 }
 
-
-
-#Forth_page{
+#Forth_page {
   width: 85%;
   margin: auto;
   background-color: #ffffff;
   color: #080808;
 }
-#Project{
+#Project {
   text-align: center;
 }
-#Project-Containor{
+#Project-Containor {
   display: flex;
   justify-content: space-around;
 }
-#Fifth_page{
+#Fifth_page {
   background-color: #080808;
   width: 85%;
+  margin: auto;
+}
+#education h1 {
+  color: #080808;
+  font-size: 34px;
+}
+
+.intro p {
+  color: #9c9c9c;
+  font-size: 14px;
+  line-height: 24px;
+  width: 570px;
   margin: auto;
 }
